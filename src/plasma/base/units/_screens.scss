@@ -1,0 +1,49 @@
+// Apple Phones
+$iPhone-5: 320px !default;
+$iPhone-6: 375px !default;
+$iPhone-6-plus: 416px !default;
+
+// Apple Tablets
+$ipad-mini: 768px !default;
+$ipad: 1024px !default;
+
+// Apple Laptops
+$macbook-pro-13-inch: 1280px !default;
+$macbook-pro-15-inch: 1440px !default;
+
+// Break Points
+//
+// Extra small screen / phone
+$screen-xs: $iPhone-5;
+$screen-xs-min-margin: 4px;
+$screen-xs-margin: 8px;
+$screen-xs-gutters: 8px;
+
+// Extra small screen / Lg phones / Increment Margins
+$screen-xs-transitional: $iPhone-6;
+$screen-xs-transitional-min: $iPhone-6;
+$screen-xs-transitional-max: $iPhone-6-plus;
+$screen-xs-transitional-min-margin: 8px;
+$screen-xs-transitional-max-margin: 14px;
+$screen-xs-transitional-gutters: 12px;
+
+// Small screen / tablet
+$screen-sm: 768px !default;
+$screen-sm-min: 768px !default;
+$screen-sm-margin: 12px;
+$screen-sm-min-margin: 24px;
+$screen-sm-gutters: 24px;
+
+// Medium screen / tablet / small desktop
+$screen-md: 1024px !default;
+$screen-min-min-margin: 8px;
+$screen-md-margin: 12px;
+$screen-sm-gutters: 24px;
+
+// Large Screen / Desktop
+$screen-lg: 1440px;
+$screen-lg-max: 1440px;
+$screen-lg-margin: 12px;
+
+// Extra Large Screen / Monitors
+$screen-xl: 1800px;

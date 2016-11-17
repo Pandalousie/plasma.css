@@ -9,6 +9,7 @@
 ehthumbs.db
 Thumbs.db
 
+
 #-----------------
 #  Node
 #-----------------
@@ -68,10 +69,12 @@ sftp-config.json
 #-----------------
 # CSS / Sass
 #-----------------
+*.sass-cache
+.sass-cache
 *.scssc
 *.css.map
 
 #-----------------
 # Dist
 #-----------------
-dist
+#dist

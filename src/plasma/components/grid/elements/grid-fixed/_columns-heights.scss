@@ -1,0 +1,18 @@
+@mixin make-column-height-fixed($ratio, $max-width) {
+    min-height: solve-proportion-for-numerator($ratio, $max-width);
+}
+
+@mixin column-height-fixed-defaults {
+    .fixed-h,
+    [class*="fixed-h"] {
+        align-self: flex-start;
+    }
+}
+
+@mixin column-height-fixed($screen-size, $column-count, $max-width) {
+    @for $i from 1 through $column-count {
+        .fixed-h-#{$screen-size}-#{$i} {
+            @include make-column-height-fixed($i / $column-count, $max-width);
+        }
+    }
+}

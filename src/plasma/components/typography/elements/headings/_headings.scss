@@ -1,0 +1,43 @@
+//  Headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    line-height: 1em;
+    margin-bottom: $line-height-base;
+    // font-weight: 600;
+}
+
+h1 {
+    font-size: $scale-7 + rem;
+    // line-height: 1 + em;
+}
+
+h2 {
+    font-size: $scale-6 + rem;
+    // line-height: 1 + em;
+
+}
+
+h3 {
+    font-size: $scale-5 + rem;
+    // line-height: 1 + em;
+}
+
+h4 {
+    font-size: $scale-4 + rem;
+    // line-height: 1 + em;
+}
+
+h5 {
+    font-size: $scale-3 + rem;
+    // line-height: 1 + em;
+}
+
+h6 {
+    font-size: $scale-2 + rem;
+    // line-height: 1 + em;
+}

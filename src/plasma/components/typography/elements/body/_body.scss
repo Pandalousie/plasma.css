@@ -1,0 +1,29 @@
+
+html{
+    font-size: ratio-to-percent($font-size-base / $font-size-browser-default);
+}
+
+body {
+    font-family: $font-family-base;
+    line-height: 1.3333em;
+    font-size: $scale-2 * 1em;
+    color: #333;
+}
+
+
+@media (max-width: $screen-sm) {
+    html {
+        font-size: ratio-to-percent(4/ $font-size-browser-default);
+    }
+}
+
+// Medium grid
+@media (max-width: $screen-md) {
+
+}
+
+// Large grid
+
+@media (max-width: $screen-lg) {
+
+}

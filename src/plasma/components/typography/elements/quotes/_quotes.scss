@@ -1,0 +1,42 @@
+    $quote-border-top: $base-unit* 2 ;
+.quote-pull {
+    width: 25%;
+    margin-left: $unit-3 * 1rem;
+    border-top: $quote-border-top  solid;
+    border-bottom: ($quote-border-top/3)  solid;
+    padding: $quote-border-top $quote-border-top/2;
+    quotes: "" "";
+}
+
+.quote-pull-right {
+    float: right;
+}
+.quote-pull-left {
+    float: left;
+}
+.quote-pagebreak {
+
+    margin: $line-height-base * 3 auto;
+    text-align: center;
+    font-size: $scale-4 * 1rem;
+    line-height: $scale-5 * 1rem;
+    font-style: italic;
+
+    &:before
+    ,&:after {
+        font-weight: bold;
+    }
+    &:before {
+        content: '“';
+    }
+    &:after {
+        content: '”';
+    }
+}
+
+
+.quote-blockquote {
+    border-left: $quote-border-top/3  solid;
+    padding-left: $text-block-padding;
+    margin-left: $text-block-margin;
+}

@@ -1,0 +1,60 @@
+.text-scale-8 {
+    font-size: $scale-8 * 1rem;
+
+    line-height: 1.3333em;
+    // line-height: 72 / 72 * 1rem;
+}
+
+.text-scale-7 {
+    font-size: $scale-7 * 1rem;
+
+    line-height: 1.3333em;
+    // line-height: 72 / 72 * 1rem;
+}
+
+.text-scale-6 {
+    font-size: $scale-6 * 1rem;
+
+    line-height: 1.3333em;
+    // line-height: 48 / 48 * 1rem;
+}
+
+.text-scale-5 {
+    font-size: $scale-5 * 1rem;
+
+    line-height: 1.3333em;
+    // line-height: 48 / 36 * 1rem;
+}
+
+.text-scale-4 {
+    font-size: $scale-4 * 1rem;
+
+    line-height: 1.3333em;
+    // line-height: 24 / 24 * 1rem;
+}
+
+.text-scale-3 {
+    font-size: $scale-3 * 1rem;
+
+    line-height: 1.3333em;
+    // line-height: 24 / 21 * 1rem;
+}
+
+.text-scale-2 {
+    font-size: $scale-2 * 1rem;
+
+    line-height: 1.3333em;
+    // line-height: 24 / 18 * 1rem;
+}
+
+.text-scale-1 {
+    font-size: $scale-1 * 1rem;
+
+    line-height: 1.3333em;
+    // line-height: 24 / 16 * 1rem;
+}
+
+.text-small,
+small {
+    @extend .text-scale-1;
+}

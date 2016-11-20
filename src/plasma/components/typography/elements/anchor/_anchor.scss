@@ -1,0 +1,22 @@
+@mixin colored-link($color, $color-hover, $color-click) {
+    a,
+    a:visited {
+        color: $color;
+    }
+
+    a,
+    a:link {
+        text-decoration: none;
+        &:active,
+        &:focus {
+            color: $color-click;
+        }
+        &:hover{
+            color: $color-hover;
+        }
+    }
+
+
+}
+
+@include colored-link(red, blue, green);

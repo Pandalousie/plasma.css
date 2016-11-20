@@ -1,0 +1,4 @@
+@mixin tracking($unit) {
+    word-spacing: $unit;
+    letter-spacing: $unit;
+}

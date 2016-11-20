@@ -1,0 +1,105 @@
+$font-family-sans-serif: Arial, Helvetica, sans-serif;
+
+$font-family-base: Arial, Helvetica, sans-serif;
+$font-size-browser-default: 16;
+$font-size-base: 6;
+$line-height-base: 24px;
+
+$unit-1: 1;
+$unit-2: 2;
+$unit-3: 3;
+$unit-4: 4;
+$unit-5: 5;
+$unit-6: 6;
+$unit-7: 7;
+$unit-8: 8;
+$unit-9: 9;
+$unit-10: 10;
+$unit-11: 11;
+$unit-12: 12;
+$unit-13: 13;
+$unit-14: 14;
+$unit-15: 15;
+$unit-16: 16;
+$unit-17: 17;
+$unit-18: 18;
+$unit-24: 24;
+
+$font-size-default: $unit-3;
+
+// Typography
+
+$scale-1: $unit-2;
+$scale-2: $unit-3;
+$scale-3: $unit-4;
+$scale-4: $unit-6;
+$scale-5: $unit-8;
+$scale-6: $unit-12;
+$scale-7: $unit-16;
+$scale-8: $unit-18;
+$scale-9: $unit-24;
+$scale-10: 36;
+$scale-11: 48;
+$scale-12: 72;
+
+
+// $scale-1: 2;
+// $scale-2: $scale-1 + $scale-1;
+// $scale-3: $scale-1 + $scale-2;
+// $scale-4: $scale-2 + $scale-3;
+// $scale-5: $scale-3 + $scale-4;
+// $scale-6: $scale-4 + $scale-5;
+// $scale-7: $scale-5 + $scale-6;
+// $scale-8: $scale-6 + $scale-7;
+
+// $scale-1: 3;
+// $scale-2: $scale-1 + 2;
+// $scale-3: $scale-1 + $scale-2;
+// $scale-4: $scale-2 + $scale-3;
+// $scale-5: $scale-3 + $scale-4;
+// $scale-6: $scale-4 + $scale-5;
+// $scale-7: $scale-5 + $scale-6;
+// $scale-8: $scale-6 + $scale-7;
+
+// $scale-0: 1;
+// $scale-1: 2;
+// $scale-2: $scale-0 + $scale-1;
+// $scale-3: $scale-1 + $scale-2;
+// $scale-4: $scale-2 + $scale-3;
+// $scale-5: $scale-3 + $scale-4;
+// $scale-6: $scale-4 + $scale-5;
+// $scale-7: $scale-5 + $scale-6;
+// $scale-8: $scale-6 + $scale-7;
+
+// $scale-0: 1;
+// $scale-1: 2;
+// $scale-2: $scale-0 + $scale-1;
+// $scale-3: $scale-0 + $scale-2;
+// $scale-4: $scale-1 + $scale-3;
+// $scale-5: $scale-2 + $scale-4;
+// $scale-6: $scale-3 + $scale-5;
+// $scale-7: $scale-4 + $scale-6;
+// $scale-8: $scale-5 + $scale-7;
+
+$scale-up-1: (4/3);
+$scale-up-2: (5/3);
+$scale-up-3: (6/3);
+$scale-up-4: 7/3;
+$scale-up-5: 8/3;
+$scale-up-6: 9/3;
+$scale-up-7: 10/3;
+$scale-up-8: 11/3;
+
+$scale-down-1: 10/12;
+$scale-down-2: 9/12;
+$scale-down-3: 8/12;
+$scale-down-4: 6/12;
+$scale-down-5: 4/12;
+$scale-down-6: 3/12;
+$scale-down-7: 2/12;
+$scale-down-8: 1/12;
+
+
+
+$text-block-padding: 12px;
+$text-block-margin: $text-block-padding *3;

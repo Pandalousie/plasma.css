@@ -7,7 +7,7 @@
 @function percent-to-ratio($ratio) {
     // Accepts a percent. ex. 50%
     // Returns a ratio. ex. 1/2
-    @return $ratio / 100%;
+    @return $ratio / 100;
 }
 
 @function make-fraction($numerator, $denominator) {

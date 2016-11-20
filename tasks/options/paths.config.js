@@ -21,18 +21,15 @@ module.exports = {
     //     //     dist: './dist/assets/js/dependencies.entry.js',
     //     // }
     // ],
-    html: [
-        // {
-        //     name: 'templates-dist',
-        //     src: './src/app/**/!(*index|*.spec).html',
-        //     dist: './dist/assets/templates/app/'
-        // },
-        {
-            name: 'index',
-            src: './src/index.html',
-            dist: './dist'
-        }
-    ],
+    html: [{
+        name: 'docs',
+        src: './src/docs/**/!(*index|*.spec).html',
+        dist: './dist/docs'
+    }, {
+        name: 'index',
+        src: './src/index.html',
+        dist: './dist'
+    }],
     // fonts: [],
     // models: [
     // // {
